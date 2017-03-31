@@ -1,0 +1,286 @@
+﻿<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>Segunda Aplicacion</title>
+
+	<!--grupo CSS-->
+    <link rel="stylesheet" href="css/app-2.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+    <!--grupo JavaScript-->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/acciones.js"> </script>
+    <script src="phonegap.js"></script>
+    <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+    <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/sony2.jpg','imagenes/moto2.jpg')">
+
+	<div data-role="page" id="Principal" data-theme="a">
+    	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"	data-back-btn-theme="a">
+        	<h1>TELEFONÍA CELULAR</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+        	<div data-role="collapsible" data-content-theme="false">
+            	<h1> Sony Xperia XZ premium</h1>
+            	<div>
+               	  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sony','','imagenes/sony2.jpg',1)"><img src="imagenes/sony1.jpg" width="619" height="349" id="sony"></a> </div>
+          </div>
+                       <div data-role="collapsible" data-content-theme="false">
+            	<h1> Moto Z</h1>
+            	<div>
+               	  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('moto','','imagenes/moto2.jpg',1)"><img src="imagenes/moto1.jpg" width="463" height="445" id="moto"></a> </div>
+                       </div>
+      </div>
+                      <div>
+                      	<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
+                        <li class="ui-first-child ui-last-child">
+                        	<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                            <h2>Definicion</h2>
+                            <p>Se muestra una breve definición de lo que es un telefono celular</p>
+                          </a>
+                         </li>
+                        <li class="ui-first-child ui-last-child">
+                        	<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                            <h2>Historia</h2>
+                            <p>Se muestra un poco de la historia de los telefonos</p>
+                          </a>
+                         </li>
+                        <li class="ui-first-child ui-last-child">
+                        	<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                            <h2>Clasificación</h2>
+                            <p>Muestra como se clasifican los celulares</p>
+                          </a>
+                         </li>  
+                        <li class="ui-first-child ui-last-child">
+                        	<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                            <h2>Compañias</h2>
+                            <p>Muestra las compañias que ofrecen el servicio en México</p>
+                          </a>
+                         </li> 
+                        <li class="ui-first-child ui-last-child"></li>   
+                        </ul>
+                        <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/gama1.jpg" alt="gama1" title="gama1" id="wows1_0"/></li>
+		<li><img src="data1/images/gama2.jpg" alt="gama2" title="gama2" id="wows1_1"/></li>
+		<li><img src="data1/images/gama3.jpg" alt="gama3" title="gama3" id="wows1_2"/></li>
+		<li><img src="data1/images/huaweip9.jpg" alt="huawei-P9" title="huawei-P9" id="wows1_3"/></li>
+		<li><img src="data1/images/moto1.jpg" alt="moto1" title="moto1" id="wows1_4"/></li>
+		<li><img src="data1/images/moto2.jpg" alt="moto2" title="moto2" id="wows1_5"/></li>
+		<li><img src="data1/images/motoz.jpg" alt="Moto-Z" title="Moto-Z" id="wows1_6"/></li>
+		<li><img src="data1/images/sony2.jpg" alt="sony2" title="sony2" id="wows1_7"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/sony1.jpg" alt="bootstrap slider" title="sony1" id="wows1_8"/></a></li>
+		<li><img src="data1/images/galaxys7edge.jpg" alt="galaxy-s7-edge" title="galaxy-s7-edge" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="gama1"><span><img src="data1/tooltips/gama1.jpg" alt="gama1"/>1</span></a>
+		<a href="#" title="gama2"><span><img src="data1/tooltips/gama2.jpg" alt="gama2"/>2</span></a>
+		<a href="#" title="gama3"><span><img src="data1/tooltips/gama3.jpg" alt="gama3"/>3</span></a>
+		<a href="#" title="huawei-P9"><span><img src="data1/tooltips/huaweip9.jpg" alt="huawei-P9"/>4</span></a>
+		<a href="#" title="moto1"><span><img src="data1/tooltips/moto1.jpg" alt="moto1"/>5</span></a>
+		<a href="#" title="moto2"><span><img src="data1/tooltips/moto2.jpg" alt="moto2"/>6</span></a>
+		<a href="#" title="Moto-Z"><span><img src="data1/tooltips/motoz.jpg" alt="Moto-Z"/>7</span></a>
+		<a href="#" title="sony2"><span><img src="data1/tooltips/sony2.jpg" alt="sony2"/>8</span></a>
+		<a href="#" title="sony1"><span><img src="data1/tooltips/sony1.jpg" alt="sony1"/>9</span></a>
+		<a href="#" title="galaxy-s7-edge"><span><img src="data1/tooltips/galaxys7edge.jpg" alt="galaxy-s7-edge"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">cssslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+                      </div>
+                        <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+                        	<div>
+                       	    <img src="imagenes/logo.png" width="128" height="128" alt="logo"> </div>
+                            <div>
+                           	  <h4>Aplicacion Dos</h4>
+                                <h4>Evelyn Castellanos Gutierrez</h4>
+                            </div>
+                        </div>
+</div>
+                      <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+                      	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+                        	<h1>Definicion</h1>
+                        </div>
+                      	<div data-role="content" align="center">
+                        	<div>
+                            Un teléfono celulares un dispositivo inalámbrico electrónico que permite tener acceso a la red de telefonía celular o móvil. Se denomina celular debido a las antenas repetidoras que conforman la red, cada una de las cuales es una célula, si bien existen redes telefónicas móviles satelitales. Su principal característica es su portabilidad, que permite comunicarse desde casi cualquier lugar. Aunque su principal función es la comunicación de voz, como el teléfono convencional, su rápido desarrollo ha incorporado otras funciones como son cámara, agenda, acceso a internet, reproducción de video e incluso GPS y reproductor mp3.
+                          </div>
+                            <div>
+                            <img src="imagenes/telefono1.jpg" width="230" height="189" alt="1"> 
+                          <img src="imagenes/telefono3.jpg" width="356" height="186" alt="3"><img src="imagenes/telefono2.jpg" width="242" height="190" alt="2"></div>
+                        </div>
+                        <div data-role="footer" data-theme="a" data-position="fixed">
+                        	<h4>Aplicacion dos, ECG</h4>
+                        </div>
+                     </div>
+                     
+                     
+  					<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+                      	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+                        	<h1>Historia</h1>
+                        </div>
+                      	<div data-role="content" align="center">
+                        	<div>
+                            	<p>En 1939, solo el 35,5 % de los estadounidenses tenía teléfonos en sus casas. En ese mismo año la exhibición «Futurama» de la Feria Mundial anticipó los teléfonos portátiles inalámbricos.</p>
+                            	<p>Tres años más tarde los soldados norteamericanos llevaron el antecesor del celular al campo de batalla. La compañía  Motorola especializada en la fabricación de radios de doble vía, presenta su transmisor del mismo nombre, que permitía tener comunicadas las tropas en la segunda guerra mundial. Físicamente este aparato era del tamaño de una botella, pesado e incómodo, pero se podía transportar para todos los lados.                            	</p>
+                            	<h3><span id="Or.C3.ADgenes">Orígenes</span></h3>
+                            	<p>La telefonía móvil o celular se conoce desde mediados del siglo XX, aunque no fue hasta los años setenta que poco a poco comenzó a extenderse, primeramente a precios muy altos y con equipos rudimentarios.</p>
+                            	<p>En 1947, AT&amp;T ideó un novedoso sistema, basado en muchos transmisores pequeños y formar con ellos una red, en lugar de un potente transmisor ubicado en una altura. Para la consecución de este objetivo la AT&amp;T solicitó a la Comisión Federal de Comunicaciones (FCC), un permiso para desarrollar el sistema de telefonía móvil, esta solicitud fue denegada.</p>
+                           	  <p>En 1973 la FCC, estaba a punto de otorgarle a AT&amp;T el monopolio del sistema celular. Motorola ve que ella puede entrar en este mercado, ya que conocía el negocio de las comunicaciones personales y convoca a sus trabajadores a un concurso para que en seis semanas presenten un prototipo de teléfono portátil. El 3 de Abril de 1973,  Marty Cooper  vicepresidente de Investigación y Desarrollo de Motorola en ese entonces, hace una llamada telefónica a Joel Engel, ingeniero jefe de AT&amp;T y propulsor de la telefonía celular, utilizando el prototipo desarrollado por su compañía, certificándose de esta manera el nacimiento del teléfono celular.</p>
+                            	<p>El primer prototipo de teléfono móvil comercializado a gran escala fue el diseñado por el ingeniero Rudy Krolopp, de la compañía Motorola, en 1983. Este teléfono pesaba 0,74 Kg, y tenía un valor de 4000 dólares.                            	</p>
+                            	<p>En marzo del 1981 el presidente de Motorola comienza hacer gestiones con las más altas esferas del Gobierno de los Estados Unidos, hasta presentarle el prototipo a Ronal Ragan entonces presidente del país, este ve las ventajas del sistema y presiona a la FCC para autorización del servicio. Luego de dos meses de esta entrevista, terminan 8 años de burocracia, dando la Comisión Federal de Comunicaciones luz verde al proyecto. Quedando AT&amp;T con el servicio y Motorola con los equipos.</p>
+                            	<p>Desde entonces la constante investigación en este campo ha propiciado el desarrollo de baterías más pequeñas y de mayor duración, pantallas más nítidas y de colores, la incorporación de software más amigable y multiplicidad de formatos de teléfonos y de funciones agregadas a este, lo cual ha hecho que muchos crean que se trata del dispositivo del siglo XXI.</p>
+                            	<p>Un teléfono móvil de última generación permite no solo realizar llamadas, sino reproducir música y videos, tomar fotos y pequeñas películas, transmitir lo grabado, así como consultar Internet, enviar y recibir correos electronicos, mensajes de texto y gráficos, contienen prestaciones como agenda personal y calculadora, juegos electrónicos e incluso ya se puede ver por ellos televisión digital.</p>
+                            	<h2>&nbsp;</h2> 
+                          <div>
+                            <img src="imagenes/his1.jpg" width="251" height="177" alt="his1">
+                            <img src="imagenes/his2.jpg" width="314" height="178" alt="his2"><img src="imagenes/his3.jpg" width="284" height="177" alt="his3"></div>      
+                     </div>
+                      </div>
+                        <div data-role="footer" data-theme="a" data-position="fixed">
+                        	<h4>Aplicacion dos, ECG</h4>
+                        </div>
+</div>
+
+
+  					<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+                      	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+                        	<h1>Clasificación</h1>
+                        </div>
+                      	<div data-role="content" align="center">
+                        <h1>Gama Alta</h1>
+                        <p>Aquí se ubican los mejores, puedes hasta lavarte los dientes con ellos (es broma), se distinguen por sus exquisitas especificaciones pero no necesariamente representan una mejor experiencia al usarlos si no se elige con cuidado.</p>
+                        <p>Los mejores avances tecnológicos pueden aparecer en está gama para luego ser heredados con el tiempo a la gama media en menor medida.                        </p>
+                        
+                          <div align="left">
+                            <ul>
+                              <li>Pantallas de 4 pulgadas en adelante</li>
+                              <li>Memoria interna desde 16GB</li>
+                              <li>Soporte de actualizaciones (las recibe antes pero depende de la marca)</li>
+                              <li>Diseñados para redes 4G</li>
+                              <li>Muchos núcleos, procesadores y RAM para que sean muy rápidos</li>
+                              <li>Cámaras de calidad desde 8 Mpx</li>
+                              <li>Destacan por ser relativamente delgados</li>
+                              <li>Eficiencia energética</li>
+                              <li>Se conectan con la TV</li>
+                              <li>Desde 800 dólares en adelante</li>
+                              <li>Se conectan con Wearables (Galaxy Gear,iWatch, etc)</li>
+                              <li>Mide tu ritmo cardíaco, predice el futuro, te ayuda a bajar de peso, puedes mirar las estrellas, lee tu mente (es broma) y todo lo que se te ocurra.</li>
+                            </ul>
+                            
+                            
+                          </div>
+                          <div data-role="collapsible" data-content-theme="false">
+            	<h2> Telefonos-Gama Alta</h2>
+            	<div>
+               	  <img src="imagenes/gama1.jpg" width="700" height="500" alt="alta"> </div>
+                       </div>
+                       <h1>Gama Media</h1>
+                       <p>Aquí se ubican los SmartPhones algunos dispositivos de marcas asiáticas, dispositivos devaluados por el tiempo que tienen en el mercado (puede ser engañoso) y las propuestas conservadoras en especificaciones de marcas reconocidas que pueden hacer mucho pero no tanto.</p>
+                       
+                         <ul>
+                           <li>Suelen ser muy equilibrados en sus características</li>
+                           <li>Generalmente no superan los 500 dólares en precio (como mucho).</li>
+                           <li>Tienen algunas funciones de la gama alta del momento.</li>
+                           <li>Los materiales ya son de calidad aceptable.</li>
+                           <li>Pantallas que no superan las 4.5 pulgadas (en promedio).</li>
+                           <li>Cámaras de 3 a 5 Mpx</li>
+                           <li>Tienen soporte limitado pero existe comunidad de desabolladores para actualizar con una ROM</li>
+                         </ul>
+                       
+                       <div data-role="collapsible" data-content-theme="false">
+            	<h2>Teléfonos-Gama Media</h2>
+            	<div>
+               	  <img src="imagenes/gama2.jpg" width="687" height="567" alt="media"> </div>
+                       </div>
+                       <h1>Gama Baja</h1>
+                       <p>En está categoría entran desde marcas chinas, imitaciones de gama media o alta hasta terminales obsoletos con muy pocas excepciones </p>
+                       <div align="left">
+                         <ul>
+                           <li>Suelen ser pequeños</li>
+                           <li>Tienen funciones básicas o las funciones que traen ya no están a la altura de un SmartPhone </li>
+                           <li>Precios muy economicos</li>
+                           <li>Características muy limitadas (cámara VGA, memoria interna, sin flash, se ponen muy lentos con el tiempo)</li>
+                           <li>No reciben soporte ni actualizaciones.</li>
+                         </ul>
+                         
+                       </div>
+                       <div data-role="collapsible" data-content-theme="false">
+            	<h2>Teléfonos-Gama Baja</h2>
+            	<div>
+               	  <img src="imagenes/gama3.jpg" width="748" height="501" alt="baja"> </div>
+                       </div>
+                        </div>
+                        <div data-role="footer" data-theme="a" data-position="fixed">
+                        	<h4>Aplicacion dos, ECG </h4>
+                        </div>
+</div>   
+                     
+                        
+  					<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+                      	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+                        	<h1>Compañias</h1>
+                        </div>
+                      	<div data-role="content" align="center">
+                        	<div data-role="collapsible" data-content-theme="false">
+            	<h1>Telcel</h1>
+            	<div>
+               	  <img src="imagenes/telcel.jpg" width="225" height="225" alt="TELCEL"> </div>
+                       </div>
+                       <div data-role="collapsible" data-content-theme="false">
+            	<h1>Movistar</h1>
+            	<div>
+               	  <img src="imagenes/movistar.png" width="311" height="162" alt="movistar"> </div>
+                       </div>
+                       <div data-role="collapsible" data-content-theme="false">
+            	<h1>Unefón</h1>
+            	<div>
+               	  <img src="imagenes/unefon.jpg" width="387" height="177" alt="unefon"> </div>
+                       </div>
+                       <div data-role="collapsible" data-content-theme="false">
+            	<h1>AT&amp;T</h1>
+            	<div>
+               	  <img src="imagenes/at&t.png" width="309" height="279" alt="at&amp;t"> </div>
+                       </div>
+                        </div>
+                        
+                        </div>
+                       
+                        <div data-role="footer" data-theme="a" data-position="fixed">
+                        	<h4>Aplicacion dos, ECG</h4>
+                        </div>
+                     </div>
+</body>
+</html>
